@@ -16,7 +16,8 @@ Over the course of two weeks, we made very good progess.
 We communicated via Discord for any questions regarding the project and for updates.
 At the end of the course, we sumbitted it and got full marks for the project.
 
-Note: The original creation of this idea was in Fall of 2021. I refactored the code, added more features, fixed bugs, and added more quality of life improvments. 
+Note: The original creation of this idea was in Fall of 2021. I refactored the code, added more features, fixed bugs, and added more quality of life improvments.
+Reuploaded with more professional improvements such as better comments, better handling, etc.
 
 Program Outline:
 
@@ -31,3 +32,4 @@ The program has 5 files.
 - sortBy : Sub file to house all the sorting functions for the apartment list.
 - apartment : The apartment class. Holds the function to make an apartment object and all compatators to handle sorting.
 
+Program is written in Java 18.0.2
