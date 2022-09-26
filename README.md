@@ -34,5 +34,6 @@ The program has 5 files.
 
 Program is written in Java 18.0.2
 
+
 9/26/2022
 - Added feature to save all apartment information to desktop as a text file. Also, fixed some bugs.
