@@ -16,7 +16,8 @@ public class functions {
         System.out.println("4) List Apartments");
         System.out.println("5) Print Apartment Information");
         System.out.println("6) Sort Apartments");
-        System.out.println("7) Exit Program");
+        System.out.println("7) Save as Text File");
+        System.out.println("8) Exit Program");
 
         System.out.print("\nChoose a number option: ");
     }
@@ -32,7 +33,7 @@ public class functions {
 
             System.out.println();
 
-            if((0 < choice) && (choice <= 7)){
+            if((0 < choice) && (choice <= 8)){
 
                 switch(choice){
 
@@ -42,7 +43,8 @@ public class functions {
                     case 4 -> listApartments();
                     case 5 -> printApartmentInformation();
                     case 6 -> sortApartments();
-                    case 7 -> exitProgram();
+                    case 7 -> save.saveFile(apartmentList);
+                    case 8 -> exitProgram();
                 }
             }
             else{
@@ -194,6 +196,8 @@ public class functions {
                 System.out.printf("\n%d) %s", i + 1, apartmentList.get(i).aptName);
             }
         }
+
+        System.out.println();
     }
 
     // Prints the information of a single apartment.
@@ -276,7 +280,7 @@ public class functions {
     // Exits the program with an exit code of 0
     static void exitProgram(){
 
-        System.out.println("Are you sure you want to exit? Nothing will be saved!\n[y][n]: ");
+        System.out.println("Are you sure you want to exit?\n[y][n]: ");
         input.nextLine();
 
         try{
